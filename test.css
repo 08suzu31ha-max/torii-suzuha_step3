@@ -1,0 +1,163 @@
+body{
+    font-family: yu Gothic,"Helvetica",sans-serif;
+    background-color: #faf8f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #3c7852;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin: 5px 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+nav {
+    padding: 0;
+    margin-top: 5px;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid #3c7852;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #4caf50;
+}
+
+section{
+    text-align: center;
+}
+
+section img{
+    display: block;
+    margin: 10px auto;
+}
+
+section h1{
+    padding-bottom: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+section h2 {
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img{
+    width: 200px;
+    height: auto;
+}
+
+img {
+    max-width: 200px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+
+button {
+    width: 300px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #4caf50;
+}
+
+
+
+footer {
+    background-color: #1f4d35 !important;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+#section2 .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.menu-item {
+    display: block;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: auto;
+}
+
+form input,
+form textarea{
+    width: 300px;
+    box-sizing: border-box;
+}
+
+form input{
+    height: 35px;
+}
+
+form textarea{
+    height: 100px;
+}
+
+
+form label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
